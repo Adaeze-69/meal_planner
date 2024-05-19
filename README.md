@@ -1,25 +1,70 @@
-# Meal Planner
+# Getting Started with Create React App
 
-Jemima is a busy working-class lady who doesn't have the time to go to the market but has a personal shopper to help her do the shopping. Luckily, she loves to cook her meal but with the many foodstuffs she has stashed in her pantry, she's always indecisive about what to prepare every day. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-She shared her concern with Wendy, her friend who is a meal planner and Wendy offered to help her generate a meal planner based on Jemima's available foodstuff.
+## Available Scripts
 
-So let's see the kind of food Jemima has at her disposal and the magic Wendy will create with the list of foodstuffs to create a food plan using bash scripting.
+In the project directory, you can run:
 
-## Food Menu
-**Breakfast**: Beans and Pap,moi moi and pap, fried plantain and egg sauce, akara and oats, beans and plantain, sandwich and tea, boiled plantain and vegetable sauce.
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Lunch**: eba and afang, pounded yam and vegetable soup,banga soup with starch,fufu and white soup,semo with egusi, plantain flour with ogbono, eba and okro
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Dinner**: fried rice,agidi and goat meat pepper soup,white rice and stew,plantain and beans, jollof rice, coconut rice,plantain porridge,yam and stew, yam porridge,sweet potatoes porridge
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Requirements
+### `npm run build`
 
-- Categorize the foodstuffs into breakfast, lunch, and dinner.
-- List these categories into the 7 days of the week.
-- Strike out meals that have been picked during the week to avoid repetition.
-- Have her state on the terminal what day of the week she needs food and input what square meal she needs to narrow down her options.
-- Use RANDOM and ARRAY functions to do this.
-- Use CASE STATEMENT to do this too.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
